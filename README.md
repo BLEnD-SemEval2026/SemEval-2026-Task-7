@@ -1,2 +1,267 @@
 # SemEval-2026-Task-7
 SemEval-2026 Task 7: Everyday Knowledge Across Diverse Languages and Cultures
+
+# Content
+- [📢 **News**](#-news)
+- [Everyday Knowledge Across Diverse Languages and Cultures](#everyday-knowledge-across-diverse-languages-and-cultures)
+- [Tracks](#tracks)
+    - [Track 1: Short Answer Questions (SAQ)](#track-1-short-answer-questions-saq)
+    - [Track 2: Multiple-Choice Questions (MCQ)](#track-2-multiple-choice-questions-mcq)
+- [Evaluation](#evaluation)
+- [Important Dates and Task Phases](#important-dates-and-task-phases)
+- [How to Participate](#how-to-participate)
+- [Competition Rules and Terms](#competition-rules-and-terms)
+- [Dataset paper](#dataset-paper)
+- [Communication](#communication)
+- [FAQs](#faqs)
+- [Resources](#resources)
+- [Organizers](#organizers)
+
+# 📢 **News**
+
+# Everyday Knowledge Across Diverse Languages and Cultures
+The global deployment of large language models (LLMs) requires cultural awareness, yet LLMs often lack culture-specific knowledge, especially for under-resourced languages and regions. Their outputs frequently reflect Western-centric perspectives or stereotypes from training data. Existing benchmarks, mostly based on monolingual datasets or Wikipedia, fail to capture the realities of everyday life across cultures. To address this, we introduce BLEnD, a benchmark for evaluating LLMs’ understanding of everyday knowledge in multilingual and multicultural contexts.
+
+This shared task aims to evaluate **cultural awareness** of language models and NLP systems in different languages. The manually constructed BLEnD benchmark will serve as the validation and test sets for the existing languages and will **not include training data because it is specifically designed for evaluation purposes**. By withholding BLEnD from the training process, we can ensure that the results truly reflect a model’s ability to generalise to unseen, diverse cultural and linguistic contexts. BLEnD currently includes 13 languages and 16 cultures. In this shared task, we will expand it to cover 17 additional pairs of languages and cultures.
+
+Languages and cultures in our dataset are as follows (completed annotations from the original BLEnD are in bold):
+
+| Area    | Language (Region)                                                                                                                                                                                                                                                                                                                                                              |
+|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Africa  | **Arabic (Algeria), Amharic (Ethiopia), Hausa (Northern Nigeria)**, Afrikaans (South Africa), Arabic (Egypt), Arabic (Morocco)                                                                                                                                                                                                                                                     |
+| Asia    | **Assamese (Assam), Azerbaijani (Azerbaijan), Chinese (China), Indonesian (Indonesia), Persian (Iran), Korean (South Korea), Korean (North Korea), Sundanese (West Java)**, Arabic (Saudi Arabia), Japanese (Japan), Thai (Thailand), Bengali (India), Tagalog (Philippines), Tamil (Sri Lanka), Taiwaanese Mandarin (Taiwan), Singaporean Mandarin (Singapore), Malay (Singapore) |
+| Europe  | **Greek (Greece), Spanish (Spain), English (UK)**, French (France), Bulgarian (Bulgaria), Swedish (Sweden), Irish (Ireland)                                                                                                                                                                                                                                                        |
+| America | **English (US), Spanish (Mexico)**, Spanish (Equador)
+
+# Tracks
+## Track 1: Short Answer Questions (SAQ)
+Participants will test their models on short-answer questions (SAQs) to ensure they can accurately generate responses while accounting for cultural and linguistic diversity. This track will include 26 languages. Given questions in a given language, responses will be tested in that language, and correctness will be determined based on alignment with human-annotated answers from BLEnD.
+
+## Track 2: Multiple-Choice Questions (MCQ)
+In this track, questions are provided in English only. Each question will come with four answer options, each representing a cultural perspective from a different country or region, i.e., the one that received the highest number of votes for a given country. To ensure fairness, questions are filtered to exclude those marked as culturally irrelevant or unclear by human annotators. Each multiple-choice question includes four answer options, with no more than one option representing any of the other countries or regions. The developed model is assessed based on its ability to identify the culturally appropriate choice for each question per region.
+
+# Evaluation
+We will evaluate each submission using accuracy based on the alignment of the generated answer with human annotations. Notably, our evaluation accounts for variations in responses, which ensures a more robust assessment. Specifically, in the SAQ track, a model-generated answer is marked as correct if it matches any of the responses provided by human annotators for the same question, and in the MCQ track, accuracy is calculated based on the correctness of the selected answer. More details about the evaluation protocol can be found in [(Myung et al., 2024)](https://proceedings.neurips.cc/paper_files/paper/2024/hash/8eb88844dafefa92a26aaec9f3acad93-Abstract-Datasets_and_Benchmarks_Track.html).
+
+# Important Dates and Task Phases
+Will be updated soon.
+
+# How to Participate
+
+1. **Register**: Sign up on the CodaBench competition platform.
+2. **Track**: Decide on the track(s) you want to participate in (Track 1 and/or 2).
+3. **Download**: Access to the questions for each track will be provided in this repository.
+4. **Submit**: Submit your models' predictions on the CodaBench competition platform.
+
+Detailed guidelines would be provided soon.
+
+# Competition Rules and Terms
+<details>
+  <summary>1. Consent to Public Release of Scores</summary>
+  <ul>
+    <li>By submitting results, you consent to the public release of your scores on:
+      <ul>
+        <li>the competition website,</li>
+        <li>at the designated workshop,</li>
+        <li>in associated proceedings.</li>
+      </ul>
+    </li>
+    <li>Task organizers have discretion over the release and choice of metrics.</li>
+    <li>Scores may include:
+      <ul>
+        <li>automatic and manual quantitative judgments,</li>
+        <li>qualitative judgments,</li>
+        <li>other metrics as deemed appropriate.</li>
+      </ul>
+    </li>
+  </ul>
+</details>
+
+<details>
+  <summary>2. Score Release and Validity</summary>
+  <ul>
+    <li>Task organizers reserve the right to withhold scores for:
+      <ul>
+        <li>incomplete submissions,</li>
+        <li>erroneous submissions,</li>
+        <li>deceptive submissions,</li>
+        <li>rule-violating submissions.</li>
+      </ul>
+    </li>
+    <li>Inclusion of a submission's scores does not constitute endorsement.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>3. Team Participation Rules</summary>
+  <ul>
+    <li>Participants may be involved in only one team.</li>
+    <li>Exceptions may be granted with prior approval from organizers.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>4. Account Management</summary>
+  <ul>
+    <li>Each team must create and use exactly one account on the designated platform.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>5. Team Constitution</summary>
+  <ul>
+    <li>Team membership cannot be changed after the evaluation period begins.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>6. Development Period Rules</summary>
+  <ul>
+    <li>Teams can submit up to 999 submissions.</li>
+    <li>Results are visible only to the submitting team.</li>
+    <li>Leaderboard is disabled.</li>
+    <li>Warnings and errors are visible for each submission.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>7. Evaluation Period Rules</summary>
+  <ul>
+    <li>The teams are contrained to make 3 submissions.</li>
+    <li>Only the final submission will be considered official.</li>
+    <li>Warnings and errors are visible for each submission.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>8. Post-Competition</summary>
+  <ul>
+    <li>The gold labels will be released after the competition.</li>
+    <li>The teams are encouraged to report results on all their system variants in their description paper.</li>
+    <li>The official submission results must be clearly indicated.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>9. Public Release of Submissions</summary>
+  <ul>
+    <li>Final team submissions may be made public after the evaluation period.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>10. Disclaimer about the Datasets</summary>
+  <ul>
+    <li>Organizers and affiliated institutions provide no warranties on dataset correctness or completeness.</li>
+    <li>They are not liable for dataset access or usage.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>11. Peer Review Process</summary>
+  <ul>
+    <li>Each participant will review another team's system description paper.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>12. Dataset Usage Restrictions</summary>
+  <ul>
+    <li>Datasets should only be used for scientific or research purposes.</li>
+    <li>Any other use is explicitly prohibited.</li>
+    <li>Datasets must not be redistributed or shared with third parties.</li>
+    <li>Interested parties should be directed to the official website.</li>
+  </ul>
+</details>
+<details>
+  <summary>13. Final ranking</summary>
+  <ul>
+    <li>To be included in the official task ranking, you **MUST** submit a system description paper.</li>
+  </ul>
+</details>
+
+# Dataset Paper
+The dataset paper for the initial version of the BLEnD can be found [here](https://proceedings.neurips.cc/paper_files/paper/2024/hash/8eb88844dafefa92a26aaec9f3acad93-Abstract-Datasets_and_Benchmarks_Track.html) (accepted to NeurIPS Datasets & Benchmark Track 2024).
+
+We will soon release a dataset paper that describes the additional data collection, annotation process, and baseline experiments. This paper will provide additional details and information that will be useful for the task participants.
+
+# Communication
+
+- Join our Discord Channel to ask questions and receive updates (coming soon).
+- If you have any questions or issues, please feel free to [create an issue](https://github.com/BLEnD-SemEval2026/SemEval-2026-Task-7/issues).
+- Contact organizers at: semeval-2026-blend-organisers[at]googlegroups[dot]com
+
+# FAQs
+<details>
+  <summary>Do I have to participate in all languages for a given track?</summary>
+  <ul>
+    <li>No, you can participate in one or more languages.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>How will you verify my submitted model?</summary>
+  <ul>
+    <li>To be included in the final team rankings of our shared task, it is mandatory for participants to submit a system description paper describing their approaches and methodologies in detail, therefore ensuring scientific integrity.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Can I use LLMs in the different tracks?</summary>
+  <ul>
+    <li>Yes.</li>
+  </ul>
+</details>
+
+<details>
+<summary>Can I use additional datasets (e.g, publicly provided ones from other sources)?</summary>
+  <ul>
+    <li>Yes. Please do cite them in the system description paper.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>How was the data annotated and did you use LLMs to annotate it?</summary>
+   <ul>
+    <li> No. The data was annotated by native speakers (≥5 per instance), not LLMs. Annotators answered the given cultural question based on their cultural background, without aksing the LLM. Different answer options were expected since this is a subjective task. See the task definition for more details. </li>
+   </ul>
+</details>
+
+<details>
+<summary>Will I be included in the final ranking if I do not write a system description paper?</summary>
+  <ul>
+    <li>No. You **MUST** write a system description paper to be included in the final ranking.</li>
+  </ul>
+</details>
+
+<details>
+<summary>I have never written a system description paper. How can I write one?</summary>
+  <ul>
+    <li>We will provide an online writing tutorial and share resources to help you write your paper.</li>
+  </ul>
+</details>
+
+<details>
+<summary>Do I need to pay conference registration fees and/or attend SemEval for my paper to be published?</summary>
+  <ul>
+    <li>No. It is not required to attend SemEval or pay registration fees for your paper to be published. However, if you want to attend, you must pay the attendance fee.</li>
+  </ul>
+</details>
+
+<details>
+<summary>Our system did not perform very well, should I still write a system description paper?</summary>
+  <ul>
+    <li>Yes! We want insights from all participants—even if your system did not perform well. Negative results are still valuable.</li>
+  </ul>
+</details>
+
+# Resources
+1. [SemEval 2026 Shared Tasks](https://semeval.github.io/SemEval2026/tasks)
+2. [Frequently Asked Questions about SemEval](https://semeval.github.io/faq.html)
+3. [Paper Submission Requirements](https://semeval.github.io/paper-requirements.html)
+4. [Guidelines for Writing Papers](https://semeval.github.io/system-paper-template.html)
+5. [Paper style files](https://github.com/acl-org/acl-style-files)
+6. Paper submission link (to be added)
+
+# Organizers
+<img width="1874" height="1204" alt="image" src="https://github.com/user-attachments/assets/9a059579-c50a-4c76-8d69-4b04106f23ac" />
