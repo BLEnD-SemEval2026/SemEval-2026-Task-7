@@ -1,5 +1,4 @@
-# SemEval-2026-Task-7
-SemEval-2026 Task 7: Everyday Knowledge Across Diverse Languages and Cultures
+# SemEval2026 Task 7: Everyday Knowledge Across Diverse Languages and Cultures
 
 # Content
 - [📢 **News**](#-news)
@@ -188,7 +187,7 @@ The dataset paper for the initial version of the BLEnD can be found [here](https
 
 # Communication
 
-- Join our Discord Channel to ask questions and receive updates ().
+- Join our Discord Channel to ask questions and receive updates (https://discord.com/invite/8x6XP97kmw).
 - If you have any questions or issues, please feel free to [create an issue](https://github.com/BLEnD-SemEval2026/SemEval-2026-Task-7/issues).
 - Contact organizers at: semeval-2026-blend-organisers[at]googlegroups[dot]com
 
@@ -265,4 +264,34 @@ The dataset paper for the initial version of the BLEnD can be found [here](https
 6. Paper submission link (to be added)
 
 # Organizers
-<img width="1874" height="1204" alt="image" src="https://github.com/user-attachments/assets/9a059579-c50a-4c76-8d69-4b04106f23ac" />
+- Nedjma Ousidhoum
+- Junho Myung
+- Carla Perez-Almendros
+- Yi Zhou
+- Jiho Jin
+- Chenyang Lyu
+- Meriem Beloucif
+- Amr Keleg
+- Vladimir Araujo
+- Naomi Baes
+- James Barry
+- Joanne Boisson
+- Nancy F. Chen
+- Christine de Kock
+- Aleksandra Edwards
+- Joseba Fernandez de Landa
+- Mohamed Fazli
+- Huda Hakami
+- Shu-Kai Hsieh
+- Joseph Marvin Imperial
+- Roy Ka-Wei Lee
+- Pintu Lohar
+- Gareth Morlais
+- Younes Samih
+- Nureman Sateemae
+- Bryan Tan
+- Asahi Ushio
+- Zheng Weihua
+- Liu Zhengyuan
+- Alice Oh
+- Jose Camacho-Collados
