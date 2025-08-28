@@ -20,18 +20,21 @@ SemEval-2026 Task 7: Everyday Knowledge Across Diverse Languages and Cultures
 # 📢 **News**
 
 # Everyday Knowledge Across Diverse Languages and Cultures
-The global deployment of large language models (LLMs) requires cultural awareness, yet LLMs often lack culture-specific knowledge, especially for under-resourced languages and regions. Their outputs frequently reflect Western-centric perspectives or stereotypes from training data. Existing benchmarks, mostly based on monolingual datasets or Wikipedia, fail to capture the realities of everyday life across cultures. To address this, we introduce BLEnD, a benchmark for evaluating LLMs’ understanding of everyday knowledge in multilingual and multicultural contexts.
+The global deployment of large language models (LLMs) and NLP systems requires cultural awareness. Yet, these models often lack culture-specific knowledge, particularly for under-served languages and regions. Their outputs frequently reflect Western-centric perspectives or stereotypes inherited from training data. Existing benchmarks, largely based on monolingual datasets or Wikipedia, often fail to capture the realities of everyday life across cultures.
 
-This shared task aims to evaluate **cultural awareness** of language models and NLP systems in different languages. The manually constructed BLEnD benchmark will serve as the validation and test sets for the existing languages and will **not include training data because it is specifically designed for evaluation purposes**. By withholding BLEnD from the training process, we can ensure that the results truly reflect a model’s ability to generalise to unseen, diverse cultural and linguistic contexts. BLEnD currently includes 13 languages and 16 cultures. In this shared task, we will expand it to cover 17 additional pairs of languages and cultures.
+This shared task aims to evaluate the cultural awareness of LLMs and NLP systems across multiple languages. We will use an extended version of the manually constructed BLEnD benchmark [(Myung et al., 2024)](https://proceedings.neurips.cc/paper_files/paper/2024/hash/8eb88844dafefa92a26aaec9f3acad93-Abstract-Datasets_and_Benchmarks_Track.html) as validation and test sets for several languages. BLEnD is specifically designed for evaluation and **will not be used for training**, ensuring that results reflect a model's ability to generalize to unseen, diverse cultural and linguistic contexts.
 
-Languages and cultures in our dataset are as follows (completed annotations from the original BLEnD are in bold):
+BLEnD currently covers 13 languages and 16 cultures. For this shared task, we will expand its scope to include 17 additional language–culture pairs.
+
+The languages and cultures inncluded in our dataset are as follows (completed annotations from the original BLEnD are in bold):
 
 | Area    | Language (Region)                                                                                                                                                                                                                                                                                                                                                              |
 |---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Africa  | **Arabic (Algeria), Amharic (Ethiopia), Hausa (Northern Nigeria)**, Afrikaans (South Africa), Arabic (Egypt), Arabic (Morocco)                                                                                                                                                                                                                                                     |
+| Africa  | **Arabic (Algeria), Amharic (Ethiopia), Hausa (Northern Nigeria)**, Arabic (Egypt), Arabic (Morocco)                                                                                                                                                                                                                                                     |
 | Asia    | **Assamese (Assam), Azerbaijani (Azerbaijan), Chinese (China), Indonesian (Indonesia), Persian (Iran), Korean (South Korea), Korean (North Korea), Sundanese (West Java)**, Arabic (Saudi Arabia), Japanese (Japan), Thai (Thailand), Bengali (India), Tagalog (Philippines), Tamil (Sri Lanka), Taiwaanese Mandarin (Taiwan), Singaporean Mandarin (Singapore), Malay (Singapore) |
-| Europe  | **Greek (Greece), Spanish (Spain), English (UK)**, French (France), Bulgarian (Bulgaria), Swedish (Sweden), Irish (Ireland)                                                                                                                                                                                                                                                        |
-| America | **English (US), Spanish (Mexico)**, Spanish (Equador)
+| Australia | **English (AU)**|
+| Europe  | **Greek (Greece), Spanish (Spain), English (UK)**, French (France), Bulgarian (Bulgaria), Welsh (Wales), Swedish (Sweden), Irish (Ireland)|                                                                   | Latin America | Spanish (Equador)|                                                                                                                                                                                   |
+| North America | **English (US), Spanish (Mexico)**|
 
 # Tracks
 ## Track 1: Short Answer Questions (SAQ)
@@ -183,11 +186,9 @@ Detailed guidelines would be provided soon.
 # Dataset Paper
 The dataset paper for the initial version of the BLEnD can be found [here](https://proceedings.neurips.cc/paper_files/paper/2024/hash/8eb88844dafefa92a26aaec9f3acad93-Abstract-Datasets_and_Benchmarks_Track.html) (accepted to NeurIPS Datasets & Benchmark Track 2024).
 
-We will soon release a dataset paper that describes the additional data collection, annotation process, and baseline experiments. This paper will provide additional details and information that will be useful for the task participants.
-
 # Communication
 
-- Join our Discord Channel to ask questions and receive updates (coming soon).
+- Join our Discord Channel to ask questions and receive updates ().
 - If you have any questions or issues, please feel free to [create an issue](https://github.com/BLEnD-SemEval2026/SemEval-2026-Task-7/issues).
 - Contact organizers at: semeval-2026-blend-organisers[at]googlegroups[dot]com
 
