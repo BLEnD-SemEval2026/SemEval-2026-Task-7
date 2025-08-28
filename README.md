@@ -17,7 +17,7 @@
 - [Organizers](#organizers)
 
 # 📢 **News**
-
+The pilot data is available (here)[pilot_data.md]
 # Everyday Knowledge Across Diverse Languages and Cultures
 The global deployment of large language models (LLMs) and NLP systems requires cultural awareness. Yet, these models often lack culture-specific knowledge, particularly for under-served languages and regions. Their outputs frequently reflect Western-centric perspectives or stereotypes inherited from training data. Existing benchmarks, largely based on monolingual datasets or Wikipedia, often fail to capture the realities of everyday life across cultures.
 
