@@ -1,4 +1,4 @@
-# SemEval2026 Task 7: Everyday Knowledge Across Diverse Languages and Cultures
+# SemEval 2026 Task 7: Everyday Knowledge Across Diverse Languages and Cultures
 
 # Content
 - [📢 **News**](#-news)
@@ -264,34 +264,36 @@ The dataset paper for the initial version of the BLEnD can be found [here](https
 6. Paper submission link (to be added)
 
 # Organizers
-- Nedjma Ousidhoum
-- Junho Myung
-- Carla Perez-Almendros
-- Yi Zhou
-- Jiho Jin
-- Chenyang Lyu
-- Meriem Beloucif
-- Amr Keleg
-- Vladimir Araujo
-- Naomi Baes
-- James Barry
-- Joanne Boisson
-- Nancy F. Chen
-- Christine de Kock
-- Aleksandra Edwards
-- Joseba Fernandez de Landa
-- Mohamed Fazli
-- Huda Hakami
-- Shu-Kai Hsieh
-- Joseph Marvin Imperial
-- Roy Ka-Wei Lee
-- Pintu Lohar
-- Gareth Morlais
-- Younes Samih
-- Nureman Sateemae
-- Bryan Tan
-- Asahi Ushio
-- Zheng Weihua
-- Liu Zhengyuan
-- Alice Oh
-- Jose Camacho-Collados
+- Nedjma Ousidhoum (Lead, Cardiff University)
+- Junho Myung (Lead, KAIST)
+- Carla Perez-Almendros (Lead, Cardiff University)
+- Yi Zhou (Lead, Cardiff University)
+- Jiho Jin (Lead, KAIST)
+- Chenyang Lyu (Organiser, Alibaba)
+- Meriem Beloucif (Organiser, Uppsala University)
+- Amr Keleg (Organiser, University of Edinburgh)
+- Rodrigo Agerri (Language lead, University of the Basque Country)
+- Vladimir Araujo (Language lead, Sailplane AI)
+- Naomi Baes (Language lead, University of Melbourne)
+- James Barry (Language lead, IBM Research)
+- Joanne Boisson (Language lead, Cardiff University)
+- Nancy F. Chen (Language lead, A*STAR Institute for Infocomm Research, Singapore)
+- Christine de Kock (Language lead, University of Melbourne)
+- Aleksandra Edwards (Language lead, Cardiff University)
+- Joseba Fernandez de Landa (Language lead, University of the Basque Country)
+- Mohamed Fazli (Language lead, MBZUAI)
+- Huda Hakami (Language lead, Taif University, KSA)
+- Shu-Kai Hsieh (Language lead, National Taiwan University)
+- Joseph Marvin Imperial  (Language lead, Bath University)
+- Roy Ka-Wei Lee (Language lead, Singapore University of Technology and Design)
+- Pintu Lohar (Language lead, Sitare University, India)
+- Gareth Morlais (Language lead, Welsh Government)
+- Younes Samih (Language lead, IBM)
+- Nureman Sateemae (Language lead)
+- Johan Sjons (Language lead, Uppsala University)
+- Bryan Tan (Language lead, Singapore University of Technology and Design)
+- Asahi Ushio (Language lead, Google)
+- Zheng Weihua (Language lead, Singapore University of Technology and Design)
+- Liu Zhengyuan (Language lead, A*STAR Institute for Infocomm Research, Singapore)
+- Alice Oh (Advisory Organiser, KAIST)
+- Jose Camacho-Collados (Advisory Organiser, Cardiff University)
