@@ -1,4 +1,4 @@
-# SemEval-2026 Task 7: Everyday Knowledge Accross Diverse Languages and Cultures Trial Data
+# SemEval 2026 Task 7: Everyday Knowledge Accross Diverse Languages and Cultures Trial Data
 
 
 
