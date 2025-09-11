@@ -193,6 +193,7 @@ The dataset paper for the initial version of the BLEnD can be found [here](https
 - Join our Discord Channel to ask questions and receive updates (https://discord.com/invite/8x6XP97kmw).
 - If you have any questions or issues, please feel free to [create an issue](https://github.com/BLEnD-SemEval2026/SemEval-2026-Task-7/issues).
 - Contact organizers at: semeval-2026-blend-organisers[at]googlegroups[dot]com
+- Request to join the participants' Google Group semeval-2026-task7-blend-participants[at]googlegroups[dot]com
 
 # FAQs
 <details>
