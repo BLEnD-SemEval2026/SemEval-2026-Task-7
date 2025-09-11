@@ -34,7 +34,8 @@ The languages and cultures inncluded in our dataset are as follows (completed an
 | Africa  | **Arabic (Algeria), Amharic (Ethiopia), Hausa (Northern Nigeria)**, Arabic (Egypt), Arabic (Morocco)                                                                                                                                                                                                                                                     |
 | Asia    | **Assamese (Assam), Azerbaijani (Azerbaijan), Chinese (China), Indonesian (Indonesia), Persian (Iran), Korean (South Korea), Korean (North Korea), Sundanese (West Java)**, Arabic (Saudi Arabia), Japanese (Japan), Thai (Thailand), Bengali (India), Tagalog (Philippines), Tamil (Sri Lanka), Taiwaanese Mandarin (Taiwan), Singaporean Mandarin (Singapore), Malay (Singapore) |
 | Australia | **English (AU)**|
-| Europe  | **Greek (Greece), Spanish (Spain), English (UK)**, French (France), Bulgarian (Bulgaria), Welsh (Wales), Swedish (Sweden), Irish (Ireland)|                                                                   | Latin America | Spanish (Equador)|                                                                                                                                                                                   |
+| Europe  | **Greek (Greece), Spanish (Spain), English (UK)**, French (France), Bulgarian (Bulgaria), Welsh (Wales), Swedish (Sweden), Irish (Ireland)|                                                                  
+| Latin America | Spanish (Equador)|                                                                                                                                                                                   |
 | North America | **English (US), Spanish (Mexico)**|
 
 # Tracks
