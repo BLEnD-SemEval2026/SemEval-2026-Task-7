@@ -29,13 +29,13 @@ BLEnD currently covers 13 languages and 16 cultures. For this shared task, we wi
 
 The languages and cultures inncluded in our dataset are as follows (completed annotations from the original BLEnD are in bold):
 
-| Area    | Language (Region)                                                                                                                                                                                                                                                                                                                                                              |
-|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Africa  | **Arabic (Algeria), Amharic (Ethiopia), Hausa (Northern Nigeria)**, Arabic (Egypt), Arabic (Morocco)                                                                                                                                                                                                                                                     |
+| Area    | Language (Region)        |
+|---------|--------------------------|
+| Africa  | **Arabic (Algeria), Amharic (Ethiopia), Hausa (Northern Nigeria)**, Arabic (Egypt), Arabic (Morocco)|
 | Asia    | **Assamese (Assam), Azerbaijani (Azerbaijan), Chinese (China), Indonesian (Indonesia), Persian (Iran), Korean (South Korea), Korean (North Korea), Sundanese (West Java)**, Arabic (Saudi Arabia), Japanese (Japan), Thai (Thailand), Bengali (India), Tagalog (Philippines), Tamil (Sri Lanka), Tamil (Singapore), Taiwaanese Mandarin (Taiwan), Singaporean Mandarin (Singapore), Malay (Singapore) |
 | Australia | English (AU)|
-| Europe  | **Greek (Greece), Spanish (Spain), English (UK)**, French (France), Bulgarian (Bulgaria), Welsh (Wales), Swedish (Sweden), Irish (Ireland)|                                                                  
-| Latin America | Spanish (Equador)|                                                                                                                                                                                   |
+| Europe  | **Greek (Greece), Spanish (Spain), English (UK)**, French (France), Bulgarian (Bulgaria), Welsh (Wales), Swedish (Sweden), Irish (Ireland), Basque (Basque Country) |                                                                  
+| Latin America | Spanish (Equador)|
 | North America | **English (US), Spanish (Mexico)**|
 
 # Tracks
