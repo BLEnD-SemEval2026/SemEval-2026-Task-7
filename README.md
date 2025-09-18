@@ -35,7 +35,7 @@ The languages and cultures inncluded in our dataset are as follows (completed an
 | Asia    | **Assamese (Assam), Chinese (China), Persian (Iran), Korean (South Korea)**, Arabic (Saudi Arabia), Japanese (Japan), Thai (Thailand), Bengali (India), Tagalog (Philippines), Tamil (Sri Lanka), Tamil (Singapore), Taiwaanese Mandarin (Taiwan), Singaporean Mandarin (Singapore), Malay (Singapore) |
 | Australia | English (AU)|
 | Europe  | **Greek (Greece), Spanish (Spain), English (UK)**, French (France), Bulgarian (Bulgaria), Welsh (Wales), Swedish (Sweden), Irish (Ireland), Basque (Basque Country)|
-| Latin America | Spanish (Equador), ** Spanish (Mexico)** |
+| Latin America | Spanish (Equador), **Spanish (Mexico)** |
 
 # Tracks
 ## Track 1: Short Answer Questions (SAQ)
