@@ -32,11 +32,10 @@ The languages and cultures inncluded in our dataset are as follows (completed an
 | Area    | Language (Region)        |
 |---------|--------------------------|
 | Africa  | **Arabic (Algeria), Amharic (Ethiopia), Hausa (Northern Nigeria)**, Arabic (Egypt), Arabic (Morocco)|
-| Asia    | **Assamese (Assam), Azerbaijani (Azerbaijan), Chinese (China), Indonesian (Indonesia), Persian (Iran), Korean (South Korea), Korean (North Korea), Sundanese (West Java)**, Arabic (Saudi Arabia), Japanese (Japan), Thai (Thailand), Bengali (India), Tagalog (Philippines), Tamil (Sri Lanka), Tamil (Singapore), Taiwaanese Mandarin (Taiwan), Singaporean Mandarin (Singapore), Malay (Singapore) |
+| Asia    | **Assamese (Assam), Chinese (China), Persian (Iran), Korean (South Korea)**, Arabic (Saudi Arabia), Japanese (Japan), Thai (Thailand), Bengali (India), Tagalog (Philippines), Tamil (Sri Lanka), Tamil (Singapore), Taiwaanese Mandarin (Taiwan), Singaporean Mandarin (Singapore), Malay (Singapore) |
 | Australia | English (AU)|
-| Europe  | **Greek (Greece), Spanish (Spain), English (UK)**, French (France), Bulgarian (Bulgaria), Welsh (Wales), Swedish (Sweden), Irish (Ireland), Basque (Basque Country) |                                                                  
-| Latin America | Spanish (Equador)|
-| North America | **English (US), Spanish (Mexico)**|
+| Europe  | **Greek (Greece), Spanish (Spain), English (UK)**, French (France), Bulgarian (Bulgaria), Welsh (Wales), Swedish (Sweden), Irish (Ireland), Basque (Basque Country)|
+| Latin America | Spanish (Equador), ** Spanish (Mexico)** |
 
 # Tracks
 ## Track 1: Short Answer Questions (SAQ)
