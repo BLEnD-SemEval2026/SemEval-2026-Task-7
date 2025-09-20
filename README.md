@@ -1,5 +1,6 @@
-<p align="center" style="overflow: hidden; height: 300px; width: 400px; position: relative;">
-  <img align="center" src="BLEnD_semeval2026_logo_final.png" style="position: absolute; bottom: -50px; width: 100%;" />
+<p style="text-align:center; overflow:hidden; width:400px; height:200px; margin:0;">
+  <img src="BLEnD_semeval2026_logo_final.png"
+       style="position:relative; top:-30px; width:100%;" />
 </p>
 
 
