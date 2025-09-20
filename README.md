@@ -1,4 +1,4 @@
-<p align="center" style="overflow: hidden; height: 300px; width: 400px; position: relative;"> <img align="center" src="BLEnD_semeval2026_logo_final_trimmed.png" style="position: absolute; bottom: -50px; width: 100%;" /> </p>
+<p align="center" style="overflow: hidden; height: 300px; width: 400px; position: relative;"> <img align="center" src="BLEnD_semeval2026_logo.png" style="position: absolute; bottom: -50px; width: 100%;" /> </p>
 
 
 # SemEval 2026 Task 7: Everyday Knowledge Across Diverse Languages and Cultures
