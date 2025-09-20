@@ -1,3 +1,8 @@
+<p align="center" style="overflow: hidden; height: 300px; width: 400px; position: relative;">
+  <img align="center" src="BLEnD_semeval2026_logo_final.png" style="position: absolute; bottom: -50px; width: 100%;" />
+</p>
+
+
 # SemEval 2026 Task 7: Everyday Knowledge Across Diverse Languages and Cultures
 
 # Content
@@ -292,6 +297,7 @@ The dataset paper for the initial version of the BLEnD can be found [here](https
 - **Roy Ka-Wei Lee** (Language Lead, Singapore University of Technology and Design)
 - **Pintu Lohar** (Language Lead, Sitare University, India)
 - **Gareth Morlais** (Language Lead, Welsh Government)
+- **Rifki Afina Putri** (Language Lead, Universitas Gadjah Mada)
 - **Younes Samih** (Language Lead, IBM)
 - **Nureman Sateemae** (Language Lead)
 - **Johan Sjons** (Language Lead, Uppsala University)
