@@ -1,3 +1,7 @@
+<p style="text-align:center; margin:0;">
+  <img src="BLEnD_semeval2026_logo_final.png"
+       style="display:block; max-width:400px; height:auto; margin:0 auto;" />
+</p>
 <p style="text-align:center; overflow:hidden; width:400px; height:200px; margin:0;">
   <img src="BLEnD_semeval2026_logo_final.png"
        style="position:relative; top:-30px; width:100%;" />
