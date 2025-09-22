@@ -2,7 +2,11 @@
 
 
 # SemEval 2026 Task 7: Everyday Knowledge Across Diverse Languages and Cultures
-
+- ❗🌐 **Competition website:** [CodaBench](https://www.codabench.org/competitions/10281/)
+- 💡 **Discord channel:** [Join here](https://discord.com/invite/8x6XP97kmw) to ask questions and receive updates
+- 🔧 **Questions or issues:** Please [create an issue](https://github.com/BLEnD-SemEval2026/SemEval-2026-Task-7/issues)
+- ✉️ **Email organisers:** semeval-2026-blend-organisers[at]googlegroups[dot]com
+- 💬 **Participants’ Google Group:** Request to join at semeval-2026-task7-blend-participants[at]googlegroups[dot]com
 # Content
 - [📢 **News**](#-news)
 - [Everyday Knowledge Across Diverse Languages and Cultures](#everyday-knowledge-across-diverse-languages-and-cultures)
@@ -14,14 +18,15 @@
 - [How to Participate](#how-to-participate)
 - [Competition Rules and Terms](#competition-rules-and-terms)
 - [Dataset paper](#dataset-paper)
-- [Communication](#communication)
 - [FAQs](#faqs)
 - [Resources](#resources)
 - [Organizers](#organizers)
 
 # 📢 **News**
+**Sep 2025**❗❗❗ The competition website is now live, register on [CodaBench](https://www.codabench.org/competitions/10281/)❗❗❗
 
-⚠️ The **pilot data** is available [here](https://github.com/BLEnD-SemEval2026/pilot_data).
+
+**Aug 2025** ⚠️ The **pilot data** is available [here](https://github.com/BLEnD-SemEval2026/pilot_data).
 
 # Everyday Knowledge Across Diverse Languages and Cultures
 The global deployment of large language models (LLMs) and NLP systems requires cultural awareness. Yet, these models often lack culture-specific knowledge, particularly for under-served languages and regions. Their outputs frequently reflect Western-centric perspectives or stereotypes inherited from training data. Existing benchmarks, largely based on monolingual datasets or Wikipedia, often fail to capture the realities of everyday life across cultures.
@@ -191,12 +196,6 @@ Detailed guidelines would be provided soon.
 # Dataset Paper
 The dataset paper for the initial version of the BLEnD can be found [here](https://proceedings.neurips.cc/paper_files/paper/2024/hash/8eb88844dafefa92a26aaec9f3acad93-Abstract-Datasets_and_Benchmarks_Track.html) (accepted to NeurIPS Datasets & Benchmark Track 2024).
 
-# Communication
-
-- Join our Discord Channel to ask questions and receive updates (https://discord.com/invite/8x6XP97kmw).
-- If you have any questions or issues, please feel free to [create an issue](https://github.com/BLEnD-SemEval2026/SemEval-2026-Task-7/issues).
-- Contact organizers at: semeval-2026-blend-organisers[at]googlegroups[dot]com
-- Request to join the participants' Google Group semeval-2026-task7-blend-participants[at]googlegroups[dot]com
 
 # FAQs
 <details>
@@ -266,42 +265,46 @@ The dataset paper for the initial version of the BLEnD can be found [here](https
 1. [SemEval 2026 Shared Tasks](https://semeval.github.io/SemEval2026/tasks)
 2. [Frequently Asked Questions about SemEval](https://semeval.github.io/faq.html)
 3. [Paper Submission Requirements](https://semeval.github.io/paper-requirements.html)
-4. [Guidelines for Writing Papers](https://semeval.github.io/system-paper-template.html)
-5. [Paper style files](https://github.com/acl-org/acl-style-files)
-6. Paper submission link (to be added)
+4. [How to write a task description paper?](https://github.com/nedjmaou/Writing_a_task_description_paper)
+5. [Guidelines for Writing Papers](https://semeval.github.io/system-paper-template.html)
+6. [Paper style files](https://github.com/acl-org/acl-style-files)
+7. Paper submission link (to be added)
+8. More references (to be added)
 
 # Organizers
-- **Nedjma Ousidhoum** (Lead, Cardiff University)
-- **Junho Myung** (Lead, KAIST)
-- **Carla Perez-Almendros** (Lead, Cardiff University)
-- **Jiho Jin** (Lead, KAIST)
-- **Yi Zhou** (Lead, Cardiff University)
-- **Chenyang Lyu** (Organiser, Alibaba)
-- **Meriem Beloucif** (Organiser, Uppsala University)
-- **Amr Keleg** (Organiser, University of Edinburgh)
-- **Rodrigo Agerri** (Language Lead, University of the Basque Country)
-- **Vladimir Araujo** (Language Lead, Sailplane AI)
-- **Naomi Baes** (Language Lead, University of Melbourne)
-- **James Barry** (Language Lead, IBM Research)
-- **Joanne Boisson** (Language Lead, Cardiff University)
-- **Nancy F. Chen** (Language Lead, A*STAR Institute for Infocomm Research, Singapore)
-- **Christine de Kock** (Language Lead, University of Melbourne)
-- **Aleksandra Edwards** (Language Lead, Cardiff University)
-- **Joseba Fernandez de Landa** (Language Lead, University of the Basque Country)
-- **Mohamed Fazli** (Language Lead, MBZUAI)
-- **Huda Hakami** (Language Lead, Taif University, Saudi Arabia)
-- **Shu-Kai Hsieh** (Language Lead, National Taiwan University)
-- **Joseph Marvin Imperial** (Language Lead, University of Bath)
-- **Roy Ka-Wei Lee** (Language Lead, Singapore University of Technology and Design)
-- **Pintu Lohar** (Language Lead, Sitare University, India)
-- **Gareth Morlais** (Language Lead, Welsh Government)
-- **Rifki Afina Putri** (Language Lead, Universitas Gadjah Mada)
-- **Younes Samih** (Language Lead, IBM)
-- **Nureman Sateemae** (Language Lead)
-- **Johan Sjons** (Language Lead, Uppsala University)
-- **Bryan Tan** (Language Lead, Singapore University of Technology and Design)
-- **Asahi Ushio** (Language Lead, Google)
-- **Weihua Zheng** (Language Lead, Singapore University of Technology and Design)
-- **Liu Zhengyuan** (Language Lead, A*STAR Institute for Infocomm Research, Singapore)
-- **Alice Oh** (Advisory Organiser, KAIST)
-- **Jose Camacho-Collados** (Advisory Organiser, Cardiff University)
+| Name                       | Role                                   | Affiliation                                          |
+|----------------------------|----------------------------------------|------------------------------------------------------|
+| Nedjma Ousidhoum           | Lead                                   | Cardiff University                                   |
+| Junho Myung                | Lead                                   | KAIST                                                |
+| Carla Perez-Almendros      | Lead                                   | Cardiff University                                   |
+| Jiho Jin                   | Lead                                   | KAIST                                                |
+| Yi Zhou                    | Lead                                   | Cardiff University                                   |
+| Chenyang Lyu               | Organiser                             | Alibaba                                              |
+| Meriem Beloucif            | Organiser, Language Lead (Swedish)     | Uppsala University                                   |
+| Amr Keleg                  | Organiser, Language Lead (Egyptian Arabic) | University of Edinburgh                          |
+| Rodrigo Agerri             | Language Lead (Basque, ES)             | University of the Basque Country                     |
+| Vladimir Araujo            | Language Lead (Spanish, EC)            | Sailplane AI                                         |
+| Naomi Baes                 | Language Lead (English, AU)            | University of Melbourne                              |
+| James Barry                | Language Lead (Irish)                  | IBM Research                                         |
+| Joanne Boisson              | Language Lead (French, FR)             | Cardiff University                                   |
+| Nancy F. Chen              | Language Lead (Mandarin/Malay/Tamil, SG)           | A*STAR Institute for Infocomm Research, Singapore    |
+| Christine de Kock          | Language Lead (English, AU)            | University of Melbourne                              |
+| Aleksandra Edwards         | Language Lead (Bulgarian)              | Cardiff University                                   |
+| Joseba Fernandez de Landa  | Language Lead (Basque, ES)             | University of the Basque Country                     |
+| Mohamed Fazli              | Language Lead (Tamil, LK)              | MBZUAI                                               |
+| Huda Hakami                | Language Lead (Saudi Arabic)           | Taif University, Saudi Arabia                        |
+| Shu-Kai Hsieh              | Language Lead (Mandarin, TW)           | National Taiwan University                           |
+| Joseph Marvin Imperial     | Language Lead (Tagalog, PH)            | University of Bath                                   |
+| Roy Ka-Wei Lee             | Language Lead (Mandarin/Malay/Tamil, SG) | Singapore University of Technology and Design      |
+| Pintu Lohar                | Language Lead (Bengali, IN)            | Sitare University, India                             |
+| Gareth Morlais              | Language Lead (Welsh)                  | Welsh Government                                     |
+| Rifki Afina Putri          | Language Lead (Indonesian/Javanese, ID) | Universitas Gadjah Mada                             |
+| Younes Samih               | Language Lead (Moroccan Arabic)        | IBM                                                  |
+| Nureman Sateemae           | Language Lead (Thai)                   |                                                      |
+| Johan Sjons                | Language Lead (Swedish)                | Uppsala University                                   |
+| Bryan Tan                  | Language Lead (Mandarin/Malay/Tamil, SG) | Singapore University of Technology and Design      |
+| Asahi Ushio                | Language Lead (Japanese)               | Google                                               |
+| Weihua Zheng               | Language Lead (Mandarin/Malay/Tamil, SG) | Singapore University of Technology and Design      |
+| Liu Zhengyuan              | Language Lead (Mandarin/Malay/Tamil, SG) | A*STAR Institute for Infocomm Research, Singapore  |
+| Alice Oh                   | Advisory Organiser                     | KAIST                                                |
+| Jose Camacho-Collados      | Advisory Organiser                     | Cardiff University                                   |
