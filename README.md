@@ -281,7 +281,7 @@ The dataset paper for the initial version of the BLEnD can be found [here](https
 | Yi Zhou                    | Lead                                   | Cardiff University                                   |
 | Chenyang Lyu               | Organiser                             | Alibaba                                              |
 | Meriem Beloucif            | Organiser, Language Lead (Swedish)     | Uppsala University                                   |
-| Amr Keleg                  | Organiser, Language Lead (Egyptian Arabic) | University of Edinburgh                          |
+| Amr Keleg                  | Organiser, Language Lead (Arabic, EG) | University of Edinburgh                          |
 | Rodrigo Agerri             | Language Lead (Basque, ES)             | University of the Basque Country                     |
 | Vladimir Araujo            | Language Lead (Spanish, EC)            | Sailplane AI                                         |
 | Naomi Baes                 | Language Lead (English, AU)            | University of Melbourne                              |
@@ -292,14 +292,14 @@ The dataset paper for the initial version of the BLEnD can be found [here](https
 | Aleksandra Edwards         | Language Lead (Bulgarian)              | Cardiff University                                   |
 | Joseba Fernandez de Landa  | Language Lead (Basque, ES)             | University of the Basque Country                     |
 | Mohamed Fazli              | Language Lead (Tamil, LK)              | MBZUAI                                               |
-| Huda Hakami                | Language Lead (Saudi Arabic)           | Taif University, Saudi Arabia                        |
+| Huda Hakami                | Language Lead (Arabic, SA)           | Taif University, Saudi Arabia                        |
 | Shu-Kai Hsieh              | Language Lead (Mandarin, TW)           | National Taiwan University                           |
 | Joseph Marvin Imperial     | Language Lead (Tagalog, PH)            | University of Bath                                   |
 | Roy Ka-Wei Lee             | Language Lead (Mandarin/Malay/Tamil, SG) | Singapore University of Technology and Design      |
 | Pintu Lohar                | Language Lead (Bengali, IN)            | Sitare University, India                             |
 | Gareth Morlais              | Language Lead (Welsh)                  | Welsh Government                                     |
 | Rifki Afina Putri          | Language Lead (Indonesian/Javanese, ID) | Universitas Gadjah Mada                             |
-| Younes Samih               | Language Lead (Moroccan Arabic)        | IBM                                                  |
+| Younes Samih               | Language Lead (Arabic, MA)        | IBM                                                  |
 | Nureman Sateemae           | Language Lead (Thai)                   |                                                      |
 | Johan Sjons                | Language Lead (Swedish)                | Uppsala University                                   |
 | Bryan Tan                  | Language Lead (Mandarin/Malay/Tamil, SG) | Singapore University of Technology and Design      |
