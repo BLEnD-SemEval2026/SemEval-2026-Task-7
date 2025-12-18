@@ -2,6 +2,7 @@
 
 
 # SemEval 2026 Task 7: Everyday Knowledge Across Diverse Languages and Cultures
+- ⚠️ **This is an evaluation-only task. Hence, BLEnD may **NOT** be used for fine-tuning or few-shot learning. However, any NLP system may be submitted and you are free to be as creative as you wish!**
 - ❗🌐 **Competition website:** [CodaBench](https://www.codabench.org/competitions/10281/)
 - 💡 **Discord channel:** [Join here](https://discord.com/invite/8x6XP97kmw) to ask questions and receive updates
 - 🔧 **Questions or issues:** Please [create an issue](https://github.com/BLEnD-SemEval2026/SemEval-2026-Task-7/issues)
@@ -201,10 +202,14 @@ The dataset paper for the initial version of the BLEnD can be found [here](https
 <details>
   <summary>Do I have to participate in all languages for a given track?</summary>
   <ul>
-    <li>No, you can participate in one or more languages.</li>
+<li>No, you can participate in one or more languages.</li>
   </ul>
 </details>
-
+  <summary>Can I fine-tune my model on BLEnD?</summary>
+  <ul>
+    <li>**No**. We are using BLEnD for evaluation only but you can submit any NLP system!</li>
+  </ul>
+</details>
 <details>
   <summary>How will you verify my submitted model?</summary>
   <ul>
@@ -301,7 +306,6 @@ The dataset paper for the initial version of the BLEnD can be found [here](https
 | Joseph Marvin Imperial     | Language Lead (Tagalog, PH)            | University of Bath                                   |
 | Roy Ka-Wei Lee             | Language Lead (Mandarin/Malay/Tamil, SG) | Singapore University of Technology and Design      |
 | Pintu Lohar                | Language Lead (Bengali, IN)            | Sitare University, India                             |
-| Gareth Morlais              | Language Lead (Welsh)                  | Welsh Government                                     |
 | Rifki Afina Putri          | Language Lead (Indonesian/Javanese, ID) | Universitas Gadjah Mada                             |
 | Younes Samih               | Language Lead (Arabic, MA)        | IBM                                                  |
 | Nureman Sateemae           | Language Lead (Thai)                   |                                                      |
