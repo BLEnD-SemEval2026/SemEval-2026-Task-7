@@ -274,15 +274,15 @@ The dataset paper for the initial version of the BLEnD can be found [here](https
 5. [Guidelines for Writing Papers](https://semeval.github.io/system-paper-template.html)
 6. [Paper style files](https://github.com/acl-org/acl-style-files)
 7. Paper submission link (to be added)
-8. References (more to be added)
+8. **References (more to be added)**
    
-       - Myung, Junho, et al. "[Blend: A benchmark for llms on everyday knowledge in diverse cultures and languages.](https://proceedings.neurips.cc/paper_files/paper/2024/file/8eb88844dafefa92a26aaec9f3acad93-Paper-Datasets_and_Benchmarks_Track.pdf)" Advances in Neural Information Processing Systems 37 (2024): 78104-78146.
+- Myung, Junho, et al. "[Blend: A benchmark for llms on everyday knowledge in diverse cultures and languages.](https://proceedings.neurips.cc/paper_files/paper/2024/file/8eb88844dafefa92a26aaec9f3acad93-Paper-Datasets_and_Benchmarks_Track.pdf)" Advances in Neural Information Processing Systems 37 (2024): 78104-78146.
    
-       - Pawar, Siddhesh, et al. ["Survey of cultural awareness in language models: Text and beyond."](https://direct.mit.edu/coli/article/51/3/907/130804/Survey-of-Cultural-Awareness-in-Language-Models) Computational Linguistics (2025): 1-96.
+- Pawar, Siddhesh, et al. ["Survey of cultural awareness in language models: Text and beyond."](https://direct.mit.edu/coli/article/51/3/907/130804/Survey-of-Cultural-Awareness-in-Language-Models) Computational Linguistics (2025): 1-96.
    
-       - Md. Arid Hasan, Maram Hasanain, Fatema Ahmad, Sahinur Rahman Laskar, Sunaya Upadhyay, Vrunda N Sukhadia, Mucahid Kutlu, Shammur Absar Chowdhury, and Firoj Alam. 2025. [NativQA: Multilingual Culturally-Aligned Natural Query for LLMs.](https://aclanthology.org/2025.findings-acl.770.pdf) In Findings of the Association for Computational Linguistics: ACL 2025, pages 14886–14909, Vienna, Austria. Association for Computational Linguistics.
+- Md. Arid Hasan, Maram Hasanain, Fatema Ahmad, Sahinur Rahman Laskar, Sunaya Upadhyay, Vrunda N Sukhadia, Mucahid Kutlu, Shammur Absar Chowdhury, and Firoj Alam. 2025. [NativQA: Multilingual Culturally-Aligned Natural Query for LLMs.](https://aclanthology.org/2025.findings-acl.770.pdf) In Findings of the Association for Computational Linguistics: ACL 2025, pages 14886–14909, Vienna, Austria. Association for Computational Linguistics.
    
-       - Alam, Firoj, et al. ["NativQA Framework: Enabling llms with native, local, and everyday knowledge."](https://arxiv.org/abs/2504.05995) arXiv preprint arXiv:2504.05995 (2025).
+- Alam, Firoj, et al. ["NativQA Framework: Enabling llms with native, local, and everyday knowledge."](https://arxiv.org/abs/2504.05995) arXiv preprint arXiv:2504.05995 (2025).
 
 # Organizers
 | Name                       | Role                                   | Affiliation                                          |
