@@ -7,7 +7,7 @@
 - 💡 **Discord channel:** [Join here](https://discord.com/invite/8x6XP97kmw) to ask questions and receive updates
 - 🔧 **Questions or issues:** Please [create an issue](https://github.com/BLEnD-SemEval2026/SemEval-2026-Task-7/issues)
 - ✉️ **Email organisers:** semeval-2026-blend-organisers[at]googlegroups[dot]com
-- 💬 **Participants’ Google Group:** Request to join at semeval-2026-task7-blend-participants[at]googlegroups[dot]com
+- 💬 **Participants’ Google Group:** Request to join at [semeval-2026-task7-blend-participants[at]googlegroups[dot]com](https://groups.google.com/g/semeval-2026-task7-blend-participants)
 # Content
 - [📢 **News**](#-news)
 - [Everyday Knowledge Across Diverse Languages and Cultures](#everyday-knowledge-across-diverse-languages-and-cultures)
