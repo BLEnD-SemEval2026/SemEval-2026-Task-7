@@ -44,7 +44,7 @@ The languages and cultures inncluded in our dataset are as follows (completed an
 | Area    | Language (Region)        |
 |---------|--------------------------|
 | Africa  | **Arabic (Algeria), Amharic (Ethiopia), Hausa (Northern Nigeria)**, Arabic (Egypt), Arabic (Morocco)|
-| Asia    | **Assamese (Assam, India), Azerbaijani (Azerbaijan), Mandarin (China), Indonesian (Indonesia), Javanese (West Java, Indonesia), Persian (Iran), Korean (North Korea), Korean (South Korea)**, Arabic (Saudi Arabia), Japanese (Japan), Thai (Thailand), Bengali (India), Tagalog (Philippines), Tamil (Sri Lanka), Tamil (Singapore), Taiwaanese Mandarin (Taiwan), Singaporean Mandarin (Singapore), Malay (Singapore) |
+| Asia    | **Assamese (Assam, India), Azerbaijani (Azerbaijan), Mandarin (China), Indonesian (Indonesia), Javanese (West Java, Indonesia), Persian (Iran), Korean (North Korea), Korean (South Korea)**, Arabic (Saudi Arabia), Japanese (Japan), Bengali (India), Tagalog (Philippines), Tamil (Sri Lanka), Tamil (Singapore), Taiwaanese Mandarin (Taiwan), Singaporean Mandarin (Singapore), Malay (Singapore) |
 | Australia | English (AU)|
 | Europe  | **Greek (Greece), Spanish (Spain), English (UK)**, French (France), Bulgarian (Bulgaria), Swedish (Sweden), Irish (Ireland), Basque (Basque Country)|
 | North America | **English (US)** |
@@ -315,7 +315,6 @@ The dataset paper for the initial version of the BLEnD can be found [here](https
 | Pintu Lohar                | Language Lead (Bengali, IN)            | Sitare University, India                             |
 | Rifki Afina Putri          | Language Lead (Indonesian/Javanese, ID) | Universitas Gadjah Mada                             |
 | Younes Samih               | Language Lead (Arabic, MA)        | IBM                                                  |
-| Nureman Sateemae           | Language Lead (Thai)                   |                                                      |
 | Johan Sjons                | Language Lead (Swedish)                | Uppsala University                                   |
 | Bryan Tan                  | Language Lead (Mandarin/Malay/Tamil, SG) | Singapore University of Technology and Design      |
 | Asahi Ushio                | Language Lead (Japanese)               | Google                                               |
