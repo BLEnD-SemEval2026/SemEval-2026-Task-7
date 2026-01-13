@@ -24,7 +24,10 @@
 - [Organizers](#organizers)
 
 # 📢 **News**
-**Sep 2025**❗❗❗ The competition website is now live, register on [CodaBench](https://www.codabench.org/competitions/10281/)❗❗❗
+**Jan 2026** ❗❗❗ The test phase will start on January 19 and run until February 2 (the dev phase has therefore been extended). Register on [CodaBench](https://www.codabench.org/competitions/10281/)❗❗❗
+
+
+**Sep 2025** The competition website is now live, register on [CodaBench](https://www.codabench.org/competitions/10281/)
 
 
 **Aug 2025** ⚠️ The **pilot data** is available [here](https://github.com/BLEnD-SemEval2026/pilot_data).
@@ -43,7 +46,7 @@ The languages and cultures inncluded in our dataset are as follows (completed an
 | Africa  | **Arabic (Algeria), Amharic (Ethiopia), Hausa (Northern Nigeria)**, Arabic (Egypt), Arabic (Morocco)|
 | Asia    | **Assamese (Assam, India), Azerbaijani (Azerbaijan), Mandarin (China), Indonesian (Indonesia), Javanese (West Java, Indonesia), Persian (Iran), Korean (North Korea), Korean (South Korea)**, Arabic (Saudi Arabia), Japanese (Japan), Thai (Thailand), Bengali (India), Tagalog (Philippines), Tamil (Sri Lanka), Tamil (Singapore), Taiwaanese Mandarin (Taiwan), Singaporean Mandarin (Singapore), Malay (Singapore) |
 | Australia | English (AU)|
-| Europe  | **Greek (Greece), Spanish (Spain), English (UK)**, French (France), Bulgarian (Bulgaria), Welsh (Wales), Swedish (Sweden), Irish (Ireland), Basque (Basque Country)|
+| Europe  | **Greek (Greece), Spanish (Spain), English (UK)**, French (France), Bulgarian (Bulgaria), Swedish (Sweden), Irish (Ireland), Basque (Basque Country)|
 | North America | **English (US)** |
 | Latin America | Spanish (Equador), **Spanish (Mexico)** |
 
