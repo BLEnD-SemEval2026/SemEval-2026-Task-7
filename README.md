@@ -51,11 +51,116 @@ The languages and cultures inncluded in our dataset are as follows (completed an
 | Latin America | Spanish (Equador), **Spanish (Mexico)** |
 
 # Tracks
+**Table 1. Track 1 (SAQ)**
+| Locale | Language              | Region / Country           |
+|-------|-----------------------|----------------------------|
+| am-ET | Amharic               | Ethiopia                   |
+| ar-DZ | Arabic                | Algeria                    |
+| ar-EG | Arabic                | Egypt                      |
+| ar-MA | Arabic                | Morocco                    |
+| ar-SA | Arabic                | Saudi Arabia               |
+| as-AS | Assamese              | India                      |
+| az-AZ | Azerbaijani           | Azerbaijan                 |
+| bg-BG | Bulgarian             | Bulgaria                   |
+| el-GR | Greek                 | Greece                     |
+| en-AU | English               | Australia             |
+| en-GB | English               | United Kingdom             |
+| en-SG | English               | Singapore                  |
+| en-US | English               | United States              |
+| es-EC | Spanish               | Ecuador                    |
+| es-ES | Spanish               | Spain                      |
+| es-MX | Spanish               | Mexico                     |
+| eu-PV | Basque                | Basque Country (Spain)    |
+| fa-IR | Persian (Farsi)       | Iran                       |
+| fr-FR | French                | France                     |
+| ga-IE | Irish                 | Ireland                    |
+| ha-NG | Hausa                 | Nigeria                    |
+| id-ID | Indonesian            | Indonesia                  |
+| ja-JP | Japanese              | Japan                      |
+| ko-KP | Korean                | North Korea                |
+| ko-KR | Korean                | South Korea                |
+| ms-SG | Malay                 | Singapore                  |
+| su-JB | Sundanese             | Indonesia          |
+| sv-SE | Swedish               | Sweden                     |
+| ta-LK | Tamil                 | Sri Lanka                  |
+| ta-SG | Tamil                 | Singapore                  |
+| tl-PH | Tagalog               | Philippines                |
+| zh-CN | Chinese   | China                      |
+| zh-SG | Chinese | Singapore                  |
+| zh-TW | Chinese | Taiwan                     |
+| en-AS | English               | Assam            |
+| en-AZ | English               | Azerbaijan                 |
+| en-BG | English               | Bulgaria                   |
+| en-CN | English               | China                      |
+| en-DZ | English               | Algeria                    |
+| en-EC | English               | Ecuador                    |
+| en-EG | English               | Egypt                      |
+| en-ES | English               | Spain                      |
+| en-ET | English               | Ethiopia                   |
+| en-FR | English               | France                     |
+| en-GR | English               | Greece                     |
+| en-ID | English               | Indonesia                  |
+| en-IE | English               | Ireland                    |
+| en-IR | English               | Iran                       |
+| en-JB | English               | Indonesia (West Java)     |
+| en-JP | English               | Japan                      |
+| en-KP | English               | North Korea                |
+| en-KR | English               | South Korea                |
+| en-LK | English               | Sri Lanka                  |
+| en-MA | English               | Morocco                    |
+| en-MX | English               | Mexico                     |
+| en-NG | English               | Nigeria                    |
+| en-PH | English               | Philippines                |
+| en-PV | English               | Basque Country (Spain)                     |
+| en-SA | English               | Saudi Arabia               |
+| en-SE | English               | Sweden                     |
+| en-TW | English               | Taiwan                     |
+
+----------
+**Table 2. Track 2 (MCQ)**
+
+| Locale | Region / Country        |
+|-------|-------------------------|
+| am-ET | Ethiopia                |
+| ar-DZ | Algeria                 |
+| ar-EG | Egypt                   |
+| ar-MA | Morocco                 |
+| ar-SA | Saudi Arabia            |
+| as-AS | Assam (India)                   |
+| az-AZ | Azerbaijan              |
+| bg-BG | Bulgaria                |
+| el-GR | Greece                  |
+| en-AU | Australia               |
+| en-GB | United Kingdom          |
+| en-US | United States           |
+| es-EC | Ecuador                 |
+| es-ES | Spain                   |
+| es-MX | Mexico                  |
+| eu-PV | Basque Country (Spain) |
+| fa-IR | Iran                    |
+| fr-FR | France                  |
+| ga-IE | Ireland                 |
+| ha-NG | Nigeria                 |
+| id-ID | Indonesia               |
+| ja-JP | Japan                   |
+| ko-KP | North Korea             |
+| ko-KR | South Korea             |
+| su-JB | Indonesia       |
+| sv-SE | Sweden                  |
+| ta-LK | Sri Lanka               |
+| tl-PH | Philippines             |
+| zh-CN | China                   |
+| zh-SG | Singapore               |
+
+
 ## Track 1: Short Answer Questions (SAQ)
-Participants will test their models on short-answer questions (SAQs) to ensure they can accurately generate responses while accounting for cultural and linguistic diversity. This track will include 26 languages. Given questions in a given language, responses will be tested in that language, and correctness will be determined based on alignment with human-annotated answers from BLEnD.
+Participants will evaluate their models on short-answer questions (SAQs) to assess their model's ability to generate accurate responses while accounting for cultural and linguistic diversity. This track covers all languages. For each question, correctness will be determined by comparison with human-annotated reference answers from BLEnD.
+
+Data in this track includes two variants: (1) an English variant, in which answers are in English (corresponding to locale codes in Table 1 that begin with en), and (2) a native-language version, in which answers are in the original language (corresponding to locale codes in Table 1 that begin with the original language code).
 
 ## Track 2: Multiple-Choice Questions (MCQ)
-In this track, questions are provided in English only. Each question will come with four answer options, each representing a cultural perspective from a different country or region, i.e., the one that received the highest number of votes for a given country. To ensure fairness, questions are filtered to exclude those marked as culturally irrelevant or unclear by human annotators. Each multiple-choice question includes four answer options, with no more than one option representing any of the other countries or regions. The developed model is assessed based on its ability to identify the culturally appropriate choice for each question per region.
+In this track, questions are provided in English only for the regions listed in Table 2. Each question includes four answer options, each representing a cultural perspective from a different country or region---i.e., the option that received the highest number of votes for that country or region. To ensure fairness, questions are filtered to exclude those marked as culturally irrelevant or unclear by human annotators. Each multiple-choice question contains four answer options, with no more than one option representing any given country or region. The model is evaluated based on its ability to identify the culturally appropriate choice for each question and region.
+
 
 # Evaluation
 We will evaluate each submission using accuracy based on the alignment of the generated answer with human annotations. Notably, our evaluation accounts for variations in responses, which ensures a more robust assessment. Specifically, in the SAQ track, a model-generated answer is marked as correct if it matches any of the responses provided by human annotators for the same question, and in the MCQ track, accuracy is calculated based on the correctness of the selected answer. More details about the evaluation protocol can be found in [(Myung et al., 2024)](https://proceedings.neurips.cc/paper_files/paper/2024/hash/8eb88844dafefa92a26aaec9f3acad93-Abstract-Datasets_and_Benchmarks_Track.html).
@@ -208,9 +313,10 @@ The dataset paper for the initial version of the BLEnD can be found [here](https
 <li>No, you can participate in one or more languages.</li>
   </ul>
 </details>
+<details>
   <summary>Can I fine-tune my model on BLEnD?</summary>
   <ul>
-    <li>**No**. We are using BLEnD for evaluation only but you can submit any NLP system!</li>
+    <li>**No**. We are using BLEnD for evaluation only but you can submit **any** NLP system!</li>
   </ul>
 </details>
 <details>
@@ -307,12 +413,11 @@ The dataset paper for the initial version of the BLEnD can be found [here](https
 | Christine de Kock          | Language Lead (English, AU)            | University of Melbourne                              |
 | Aleksandra Edwards         | Language Lead (Bulgarian)              | Cardiff University                                   |
 | Joseba Fernandez de Landa  | Language Lead (Basque, ES)             | University of the Basque Country                     |
-| Mohamed Fazli              | Language Lead (Tamil, LK)              | MBZUAI                                               |
+| Mohamed Fazli Imam              | Language Lead (Tamil, LK)              | MBZUAI                                               |
 | Huda Hakami                | Language Lead (Arabic, SA)           | Taif University, Saudi Arabia                        |
 | Shu-Kai Hsieh              | Language Lead (Mandarin, TW)           | National Taiwan University                           |
 | Joseph Marvin Imperial     | Language Lead (Tagalog, PH)            | University of Bath                                   |
 | Roy Ka-Wei Lee             | Language Lead (Mandarin/Malay/Tamil, SG) | Singapore University of Technology and Design      |
-| Pintu Lohar                | Language Lead (Bengali, IN)            | Sitare University, India                             |
 | Rifki Afina Putri          | Language Lead (Indonesian/Javanese, ID) | Universitas Gadjah Mada                             |
 | Younes Samih               | Language Lead (Arabic, MA)        | IBM                                                  |
 | Johan Sjons                | Language Lead (Swedish)                | Uppsala University                                   |
