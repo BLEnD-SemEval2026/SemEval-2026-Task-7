@@ -166,7 +166,15 @@ In this track, questions are provided in English only for the regions listed in 
 We will evaluate each submission using accuracy based on the alignment of the generated answer with human annotations. Notably, our evaluation accounts for variations in responses, which ensures a more robust assessment. Specifically, in the SAQ track, a model-generated answer is marked as correct if it matches any of the responses provided by human annotators for the same question, and in the MCQ track, accuracy is calculated based on the correctness of the selected answer. More details about the evaluation protocol can be found in [(Myung et al., 2024)](https://proceedings.neurips.cc/paper_files/paper/2024/hash/8eb88844dafefa92a26aaec9f3acad93-Abstract-Datasets_and_Benchmarks_Track.html).
 
 # Important Dates and Task Phases
-Will be updated soon.
+Task | Date
+-------|-------
+**Sample data ready** | 8 August 2025
+**Evaluation start** | 12 January 2026
+**Evaluation end** | 2 February 2026
+**Paper submission due** | February 2026 (to be updated when the SemEval Chairs will communicate the date)
+**Notification to authors** | March 2026 (to be updated when the SemEval Chairs will communicate the date)
+**Camera ready due** | April 2026 (to be updated when the SemEval Chairs will communicate the date)
+**SemEval workshop** | July 2026 (co-located with ACL 2026)
 
 # How to Participate
 
