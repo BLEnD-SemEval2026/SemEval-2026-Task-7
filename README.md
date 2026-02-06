@@ -27,7 +27,7 @@
 **6 Feb 2026** ❗❗❗ The gold labels are now available [here](https://github.com/BLEnD-SemEval2026/SemEval-2026-Task-7/tree/main/gold_data)❗❗❗
 
 
-**Jan 2026** ❗❗❗ The test phase will start on January 19 and run until February 2 (the dev phase has therefore been extended). Register on [CodaBench](https://www.codabench.org/competitions/10281/)❗❗❗
+**Jan 2026** The test phase will start on January 19 and run until February 2 (the dev phase has therefore been extended). Register on [CodaBench](https://www.codabench.org/competitions/10281/)
 
 
 **Sep 2025** The competition website is now live, register on [CodaBench](https://www.codabench.org/competitions/10281/)
