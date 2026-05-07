@@ -2,6 +2,24 @@
 
 
 # SemEval 2026 Task 7: Everyday Knowledge Across Diverse Languages and Cultures
+This is an extension of [Myung et al., 2024](https://github.com/nlee0212/BLEnD). **If you use our data, please cite:**
+```
+  @inproceedings{semeval2026task7,
+  title     = "{S}em{E}val-2026 {T}ask 7: {E}veryday {K}nowledge {A}cross {D}iverse {L}anguages and {C}ultures",
+  author    = "Nedjma Ousidhoum and Junho Myung and Carla Perez-Almendros and Jiho Jin and
+               Amr Keleg and Meriem Beloucif and Yi Zhou and Rodrigo Agerri and Vladimir Araujo and
+               Naomi Baes and James Barry and Joanne Boisson and Nancy F. Chen and Christine de Kock and
+               Aleksandra Edwards and Joseba Fernandez de Landa and Mohamed Fazli Imam and Huda Hakami and
+               Shu-Kai Hsieh and Joseph Marvin Imperial and Roy Ka-Wei Lee and Chenyang Lyu and
+               Younes Samih and Johan Sjons and Bryan Tan and Asahi Ushio and Weihua Zheng and Zhengyuan Liu and
+               Alice Oh and Jose Camacho-Collados",
+  booktitle = "Proceedings of the 20th International Workshop on Semantic Evaluation (SemEval-2026)",
+  year      = "2026",
+  publisher = "Association for Computational Linguistics"
+}
+```
+**Preprint available at: https://arxiv.org/abs/2605.02601.**
+
 - ⚠️ **This is an evaluation-only task. Hence, BLEnD may **NOT** be used for fine-tuning or few-shot learning. However, any NLP system may be submitted and you are free to be as creative as you wish!**
 - ❗🌐 **Competition website:** [CodaBench](https://www.codabench.org/competitions/10281/)
 - 💡 **Discord channel:** [Join here](https://discord.com/invite/8x6XP97kmw) to ask questions and receive updates
